@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BNI Smart Mobile</string>
+    <string name="app_info">BNI Smart Mobile Android\nVersi: 1.0 (20120313)\n\n\n\u00A9 2012 Indra Gunawan</string>
+    <string name="app_about">BNI Smart Mobile Android\nby: INTENS Teknomedia\n\nPerhatian:\nAplikasi ini tidak dikembangkan oleh\nPT. Bank Negara Indonesia (BNI)\n\nMohon untuk tidak melaporkan bug\nyang ditemukan pada software ini\nkepada pihak BNI\n\nKirim Laporan Ke:\ninfo@intens.web.id\n\nAplikasi ini dikembangkan sesuai dengan\nsyntax SMS BNI Smart Mobile\n\n\u00A9 2012 Indra Gunawan</string>
+    
+    <string name="common_entry">Common Entry</string>
+    <string name="first_entry">First Entry</string>
+    <string name="second_entry">Second Entry</string>
+    <string name="third_entry">Third Entry</string>
+    <string name="fourth_entry">Fourth Entry</string>
+    <string name="fifth_entry">Fifth Entry</string>
+    <string name="sixth_entry">Sixth Entry</string>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Label -->
+    <string name="informasi">Informasi</string>
+    <string name="confirmation">Konfirmasi</string>
+    <string name="warning">Peringatan</string>
+    <string name="attention">Perhatian</string>
+    <!-- Menu Label -->
+    <string name="menu_about">About</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_back">Back</string>
+    <!-- SMS Engine -->
+    <string name="sms_sent">SMS terkirim</string>
+    <string name="generic_failure">Kegagalan umum</string>
+    <string name="no_service">Tidak ada layanan</string>
+    <string name="null_pdu">PDU Null</string>
+    <string name="radio_off">Radio mati</string>
+    <string name="sms_delivered">SMS terkirim</string>
+    <string name="sms_not_delivered">SMS tidak terkirim</string>
+    <string name="execution_error">Eksekusi error</string>
+    <!-- Menu Not Exists -->
+    <string name="menu_error">Menu yang dipilih belum tersedia!</string>
+    <!-- Use for Buttons -->
+    <string name="ok_button">Ok</string>
+    <string name="yes_button">Ya</string>
+    <string name="no_button">Tidak</string>
+    <string name="set_button">Set</string>
+     <string name="kirim_button">Kirim</string>
+    <!-- Common Label -->
+    <string name="jumlah_limit">Jumlah Limit</string>
+    <string name="pin_setup">PIN Setup</string>
+    <string name="old_pin">PIN Lama</string>
+    <string name="new_pin">PIN Baru</string>
+    <string name="new_pin_confirm">Konfirmasi PIN Baru</string>
+    <string name="fax_no">No. Fax</string>
+    <string name="bill_month">Bulan Tagihan</string>
+    <string name="phone_no">No. Telepon</string>
+    <string name="no_pelanggan">No. Pelanggan</string>
+    <string name="jumlah_pembayaran">Jumlah Pembayaran</string>
+    <string name="jumlah_pulsa">Jumlah Pulsa</string>
+    <string name="due_date">Tanggal Jatuh Tempo</string>
+    <string name="nama_bank">Nama Bank</string>
+    <string name="nama_cabang">Nama Cabang</string>
+    <string name="atas_nama">Atas Nama</string>
+    <string name="pin_smartmobile">PIN Smart Mobile</string>
+    <string name="no_rekening_tujuan">No. Rekening Tujuan</string>
+    <string name="jumlah_transfer">Jumlah Transfer</string>
+    <!-- Permohonan Aplikasi -->
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="kota">Kota</string>
+    <string name="kode_pos">Kode Pos</string>
+
+</resources>

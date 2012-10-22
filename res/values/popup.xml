@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Warnings -->
+    <string name="limit_value_warning">Masukan nilai limit yang ingin diajukan!</string>
+    <string name="cetak_ulang_value_warning">Masukan nomor fax untuk pengiriman tagihan!</string>
+    <string name="debug_mode_warning">Mode DEBUG diaktifkan, setiap SMS yang terkirim (termasuk yang mengandung informasi PIN Smart Mobile anda) akan disimpan di Sent Folder.\n\nMatikan mode ini jika tidak dibutuhkan lagi!</string>
+    <!-- Required -->
+    <string name="phone_no_required">No. Telepon harus diisi!</string>
+    <string name="no_pelanggan_required">No. Pelanggan harus diisi!</string>
+    <string name="jumlah_pembayaran_required">Masukan jumlah pembayaran!</string>
+    <string name="jumlah_pulsa_required">Masukan nominal pulsa!</string>
+    <string name="due_date_required">Masukan tanggal jatuh tempo setiap bulan!</string>
+    <string name="nama_bank_required">Masukan nama bank!</string>
+    <string name="nama_cabang_required">Masukan nama cabang!</string>
+    <string name="atas_nama_billing_required">Masukan nama yang tercantum dalam tagihan anda!</string>
+    <string name="atas_nama_reload_required">Masukan nama untuk transaksi ini!</string>
+    <string name="atas_nama_smarttransfer_required">Masukan nama pemilik rekening tujuan!</string>
+    <string name="pin_smartmobile_required">Masukan PIN Smart Mobile anda!</string>
+    <string name="jumlah_transfer_required">Masukan nominal yang akan ditransfer!</string>
+    <string name="rekening_value_required">Masukan nomor rekening tujuan!</string>
+    <string name="nominal_transfer_required">Masukan nominal transfer!</string>
+    <string name="old_pin_required">Masukan PIN Smartmobile lama anda!</string>
+    <string name="new_pin_required">Masukan PIN baru untuk Smartmobile anda!</string>
+    <string name="confirm_pin_required">Konfirmasi PIN baru anda!</string>
+    <string name="nama_required">Masukan nama anda!</string>
+    <string name="alamat_required">Masukan alamat anda!</string>
+    <string name="kota_required">Masukan kota tempat anda tinggal!</string>
+    <string name="kode_pos_required">Masukan kode pos daerah anda!</string>
+    <!-- Error -->
+    <string name="due_date_range_error">Tanggal jatuh tempo harus berada dalam rentang nilai 1 sampai 31!</string>
+    <string name="old_pin_error">PIN Lama tidak sesuai</string>
+    <string name="confirm_pin_error">PIN Baru dan PIN Konfirmasi tidak sama</string>
+    <string name="change_pin_error">Ganti PIN Error</string>
+    <string name="pin_length_error">Panjang PIN baru minimal 4 karakter</string>
+    <string name="pin_error">PIN Salah</string>
+    <string name="pin_confirm">Masukan PIN terlebih dahulu!</string>
+    <!-- Info/Success -->
+    <string name="change_pin_success">Ganti PIN Sukses! Restart Aplikasi!</string>
+    <string name="pin_unlocked_info">PIN Terbuka</string>
+    <!-- Prompt -->
+    <string name="mode_debug_prompt">Mode Debug:</string>
+
+</resources>

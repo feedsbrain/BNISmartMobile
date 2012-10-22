@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainMenuLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:baselineAligned="false"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/mainLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/main_logo" />
+
+        <ImageView
+            android:id="@+id/menuImage"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/visa_logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuHeaderLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/menuHeaderText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/menuListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/bniFooter"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fancy_color" />
+
+    </LinearLayout>
+
+</LinearLayout>

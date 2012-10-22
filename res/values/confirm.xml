@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Informasi -->
+    <string name="cek_saldo_confirm">Konfirmasi pengiriman SMS cek saldo?</string>
+    <string name="tagihan_confirm">Konfirmasi pengiriman SMS cek tagihan?</string>
+    <string name="pembayaran_confirm">Konfirmasi pengiriman SMS cek pembayaran terakhir?</string>
+    <string name="poin_confirm">Konfirmasi pengiriman SMS cek poin bonus pasti?</string>
+    <!-- Layanan -->
+    <string name="kenaikan_limit_confirm">Konfirmasi pengajuan kenaikan limit sebesar [LIMIT] untuk kartu [KARTU] anda?</string>
+    <!-- Transaksi -->
+    <string name="phone_bill_confirm">Konfirmasi pembayaran tagihan [BILLING] nomor telepon [REK] sejumlah [AMOUNT] dari kartu [KARTU] anda?</string>
+    <string name="phone_reload_confirm">Konfirmasi reload pulsa [BILLING] ke telepon [REK] sejumlah [AMOUNT] dari kartu [KARTU] anda?</string>
+    <string name="cetak_ulang_confirm">Konfirmasi pengajuan cetak ulang tagihan bulan [PERIODE], dikirim ke No. Fax [FAX] untuk kartu [KARTU] anda?</string>
+    <string name="danaplus_confirm">Konfirmasi transaksi Danaplus ke nomor rekening [REK] sejumlah [AMOUNT] dari kartu [KARTU] anda?</string>
+    <string name="phone_smartbill_confirm">Konfirmasi pendaftaran auto bill [BILLING] untuk nomor telepon/pelanggan [TELEPON] atas nama [NAME] setiap tanggal [DATE] dari kartu [KARTU] anda?</string>
+    <string name="reload_due_date_confirm">Pilih tanggal autodebet!</string>
+    <string name="phone_smartreload_confirm">Konfirmasi pendaftaran auto reload [BILLING] senilai pulsa [AMOUNT] untuk nomor telepon [TELEPON] atas nama [NAME] setiap tanggal [DATE] dari kartu [KARTU] anda?</string>
+    <string name="smart_transfer_confirm">Konfirmasi pendaftaran smart transfer ke nomor rekening [REK] atas nama [NAME] pada bank [BANK] cabang [BRANCH] sejumlah [AMOUNT] setiap tanggal [DATE] dari kartu [KARTU] anda?</string>
+    <!-- Lain-Lain -->
+    <string name="change_pin_confirm">Konfirmasi pengiriman SMS penggantian PIN Smartmobile untuk kartu [KARTU] anda?</string>
+    <string name="fitur_confirm">Konfirmasi pengiriman SMS informasi fitur?</string>
+    <string name="register_confirm">Konfirmasi pengiriman SMS registrasi web?</string>
+    <string name="aplikasi_confirm">Konfirmasi pengiriman SMS permohonan aplikasi untuk [NAME] di alamat [ADDRESS] kode pos [ZIPCODE] kota [CITY]?</string>
+
+</resources>

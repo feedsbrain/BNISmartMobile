@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SMS Center -->
+    <string name="smscenter">3346</string>
+    
+    <!-- Informasi -->
+    <string name="saldo">SAL</string>
+    <string name="tagihan">TAG</string>
+    <string name="pembayaran">PAY</string>
+    <string name="poin">POIN</string>
+    
+    <!-- Layanan -->
+    <string name="kenaikan_limit">ICL [LIMIT]</string>
+  	<string name="cetak_ulang">BIL [PIN] [PERIODE] [FAX]</string>
+
+  	<!-- Transaksi -->
+  	<string name="danaplus">DPLUS [PIN] [REK] [AMOUNT]</string>
+  	
+  	<!-- Bill Payment -->
+  	<string name="telkom">TELKOM [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="telkomsel">TELKOMSEL [PIN] [TELEPON] [AMOUNT]</string>
+  	
+  	<!-- Reload Voucher -->
+  	<string name="simpati">SIMPATI [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="as">AS [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="mentari">MENTARI [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="starone">STARONE [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="im3">IM3 [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="fren">FREN [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="flexi">FLEXI [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="xl_jempol">XLJEMPOL [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="esia">ESIA [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="xl_reg">XLREG [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="xl_xtra">XLXTRA [PIN] [TELEPON] [AMOUNT]</string>
+  	<string name="three">THREE [PIN] [TELEPON] [AMOUNT]</string>
+  	
+  	<!-- Otodebet Billing -->
+	<string name="bill_telkom">REQ TKM [PIN] [TELEPON] [DATE] [NAME]</string>
+	<string name="bill_telkomsel">REQ TSEL [PIN] [TELEPON] [DATE] [NAME]</string>
+	<string name="bill_matrix">REQ SAT [PIN] [TELEPON] [DATE] [NAME]</string>
+	<string name="bill_indovision">REQ IND [PIN] [TELEPON] [DATE] [NAME]</string>
+	<string name="bill_kabelvision">REQ KBL [PIN] [TELEPON] [DATE] [NAME]</string>
+	<string name="bill_tpj">REQ TPJ [PIN] [TELEPON] [DATE] [NAME]</string>
+	<string name="bill_xplor">REQ XPLOR [PIN] [TELEPON] [DATE] [NAME]</string>
+	<string name="bill_fren">REQ MS [PIN] [TELEPON] [DATE] [NAME]</string>
+
+	<!-- Smart Reload -->
+	<string name="auto_simpati">REQ SIMPATI [PIN] [TELEPON] [AMOUNT] [DATE] [NAME]</string>
+	<string name="auto_mentari">REQ MENTARI [PIN] [TELEPON] [AMOUNT] [DATE] [NAME]</string>
+	<string name="auto_im3">REQ IM3 [PIN] [TELEPON] [AMOUNT] [DATE] [NAME]</string>
+	<string name="auto_fren">REQ FREN [PIN] [TELEPON] [AMOUNT] [DATE] [NAME]</string>
+	
+	<!-- Smart Transfer -->
+	<string name="smart_transfer">REQ TRF [PIN] [BANK] [REK] [AMOUNT] [DATE] [NAME]</string>
+	
+	<!-- Lain-Lain -->
+	<string name="pin">CHGPIN [OLD] [NEW] [CONFIRM]</string>
+	<string name="fitur">FITUR</string>
+	
+	<!-- Common -->
+	<string name="register">REGWEB [PIN]</string>
+	<string name="aplikasi">BCC [DATA]</string>
+</resources>
