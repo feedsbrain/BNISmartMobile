@@ -18,24 +18,36 @@ public final class R {
     public static final class drawable {
         public static final int fancy_color=0x7f020000;
         public static final int ic_launcher=0x7f020001;
-        public static final int main_logo=0x7f020002;
-        public static final int master_logo=0x7f020003;
-        public static final int visa_logo=0x7f020004;
+        public static final int intens=0x7f020002;
+        public static final int main_logo=0x7f020003;
+        public static final int master_logo=0x7f020004;
+        public static final int visa_logo=0x7f020005;
     }
     public static final class id {
-        public static final int about=0x7f080017;
-        public static final int back=0x7f080015;
+        public static final int about=0x7f080033;
+        public static final int back=0x7f080031;
         public static final int bniFooter=0x7f080011;
         public static final int bottomColor=0x7f08000b;
         public static final int buttonLayout=0x7f080005;
+        public static final int confirmPinLabel=0x7f080022;
+        public static final int confirmPinText=0x7f080023;
         public static final int contentLayout=0x7f080008;
+        public static final int contentScrollView=0x7f080012;
         public static final int disclaimerText=0x7f080009;
+        public static final int faxEditText=0x7f080028;
+        public static final int faxText=0x7f080027;
+        public static final int fifthEntryField=0x7f08002e;
+        public static final int fifthEntryLabel=0x7f08002d;
+        public static final int firstEntryField=0x7f080014;
+        public static final int firstEntryLabel=0x7f080013;
         public static final int footerLayout=0x7f08000a;
+        public static final int fourthEntryField=0x7f08001b;
+        public static final int fourthEntryLabel=0x7f08001a;
         public static final int headerLayout=0x7f080001;
         public static final int headerLogoLayout=0x7f080003;
-        public static final int jumlahEdit=0x7f080013;
-        public static final int jumlahText=0x7f080012;
-        public static final int kirimButton=0x7f080014;
+        public static final int jumlahEdit=0x7f08001d;
+        public static final int jumlahText=0x7f08001c;
+        public static final int kirimButton=0x7f080019;
         public static final int mainLayout=0x7f080000;
         public static final int mainLogo=0x7f080004;
         public static final int mainMenuLayout=0x7f08000c;
@@ -44,110 +56,241 @@ public final class R {
         public static final int menuHeaderText=0x7f08000f;
         public static final int menuImage=0x7f08000d;
         public static final int menuListView=0x7f080010;
-        public static final int setting=0x7f080016;
+        public static final int monthSpinner=0x7f080026;
+        public static final int monthText=0x7f080025;
+        public static final int newPinLabel=0x7f080020;
+        public static final int newPinText=0x7f080021;
+        public static final int oldPinLabel=0x7f08001e;
+        public static final int oldPinText=0x7f08001f;
+        public static final int pinEditText=0x7f08002a;
+        public static final int pinFieldEntry=0x7f08002c;
+        public static final int pinFieldLabel=0x7f08002b;
+        public static final int pinText=0x7f080029;
+        public static final int secondEntryField=0x7f080016;
+        public static final int secordEntryLabel=0x7f080015;
+        public static final int setButton=0x7f080024;
+        public static final int setting=0x7f080032;
+        public static final int sixthEntryField=0x7f080030;
+        public static final int sixthEntryLabel=0x7f08002f;
+        public static final int thirdEntryField=0x7f080018;
+        public static final int thridEntryLabel=0x7f080017;
         public static final int topColor=0x7f080002;
         public static final int visaButton=0x7f080006;
     }
     public static final class layout {
         public static final int main=0x7f030000;
         public static final int menu=0x7f030001;
-        public static final int menu_limit=0x7f030002;
+        public static final int menu_about=0x7f030002;
+        public static final int menu_common_entry=0x7f030003;
+        public static final int menu_extended_entry=0x7f030004;
+        public static final int menu_limit=0x7f030005;
+        public static final int menu_pin=0x7f030006;
+        public static final int menu_print_bill=0x7f030007;
+        public static final int menu_registrasi=0x7f030008;
+        public static final int menu_smart_transfer=0x7f030009;
     }
     public static final class menu {
         public static final int back_menu=0x7f070000;
         public static final int main_menu=0x7f070001;
     }
     public static final class string {
-        public static final int aplikasi=0x7f050043;
-        public static final int app_info=0x7f05001c;
-        public static final int app_name=0x7f05001b;
-        public static final int as=0x7f050028;
-        public static final int attention=0x7f05000e;
-        public static final int auto_fren=0x7f05003e;
-        public static final int auto_im3=0x7f05003d;
-        public static final int auto_mentari=0x7f05003c;
+        public static final int alamat=0x7f050039;
+        public static final int alamat_required=0x7f050051;
+        public static final int aplikasi=0x7f05008e;
+        public static final int aplikasi_confirm=0x7f050010;
+        public static final int app_about=0x7f050060;
+        public static final int app_info=0x7f05005f;
+        public static final int app_name=0x7f05005e;
+        public static final int as=0x7f050073;
+        public static final int atas_nama=0x7f050034;
+        public static final int atas_nama_billing_required=0x7f050046;
+        public static final int atas_nama_reload_required=0x7f050047;
+        public static final int atas_nama_smarttransfer_required=0x7f050048;
+        public static final int attention=0x7f050014;
+        public static final int auto_fren=0x7f050089;
+        public static final int auto_im3=0x7f050088;
+        public static final int auto_mentari=0x7f050087;
         /**  Smart Reload 
          */
-        public static final int auto_simpati=0x7f05003b;
-        public static final int bill_fren=0x7f05003a;
-        public static final int bill_indovision=0x7f050036;
-        public static final int bill_kabelvision=0x7f050037;
-        public static final int bill_matrix=0x7f050035;
+        public static final int auto_simpati=0x7f050086;
+        public static final int bill_fren=0x7f050085;
+        public static final int bill_indovision=0x7f050081;
+        public static final int bill_kabelvision=0x7f050082;
+        public static final int bill_matrix=0x7f050080;
+        public static final int bill_month=0x7f05002c;
         /**  Otodebet Billing 
          */
-        public static final int bill_telkom=0x7f050033;
-        public static final int bill_telkomsel=0x7f050034;
-        public static final int bill_tpj=0x7f050038;
-        public static final int bill_xplor=0x7f050039;
-        public static final int cek_saldo_confirm=0x7f050010;
-        public static final int cetak_ulang=0x7f050023;
-        public static final int confirmation=0x7f05000c;
-        /**  Transaksi 
-         */
-        public static final int dana_plus=0x7f050024;
-        public static final int esia=0x7f05002f;
-        public static final int execution_error=0x7f05000f;
-        public static final int fitur=0x7f050041;
-        public static final int flexi=0x7f05002d;
-        public static final int fren=0x7f05002c;
-        public static final int generic_failure=0x7f050005;
-        public static final int im3=0x7f05002b;
-        public static final int informasi=0x7f050000;
-        public static final int jumlah_limit=0x7f050019;
-        /**  Layanan 
-         */
-        public static final int kenaikan_limit=0x7f050022;
-        public static final int kenaikan_limit_confirm=0x7f050014;
-        public static final int kirim=0x7f05001a;
-        public static final int limit_value_warning=0x7f050015;
-        public static final int mentari=0x7f050029;
-        public static final int menu_about=0x7f050001;
-        public static final int menu_back=0x7f050003;
-        public static final int menu_error=0x7f05000b;
-        public static final int menu_setting=0x7f050002;
-        public static final int no_button=0x7f050018;
-        public static final int no_service=0x7f050006;
-        public static final int null_pdu=0x7f050007;
-        public static final int ok_button=0x7f050016;
-        public static final int pembayaran=0x7f050020;
-        public static final int pembayaran_confirm=0x7f050012;
-        /**  Lain-Lain 
-         */
-        public static final int pin=0x7f050040;
-        public static final int poin=0x7f050021;
-        public static final int poin_confirm=0x7f050013;
-        public static final int radio_off=0x7f050008;
-        /**  Common 
-         */
-        public static final int register=0x7f050042;
+        public static final int bill_telkom=0x7f05007e;
+        public static final int bill_telkomsel=0x7f05007f;
+        public static final int bill_tpj=0x7f050083;
+        public static final int bill_xplor=0x7f050084;
         /**  Informasi 
          */
-        public static final int saldo=0x7f05001e;
+        public static final int cek_saldo_confirm=0x7f050000;
+        public static final int cetak_ulang=0x7f05006e;
+        public static final int cetak_ulang_confirm=0x7f050007;
+        public static final int cetak_ulang_value_warning=0x7f05003d;
+        /**  Lain-Lain 
+         */
+        public static final int change_pin_confirm=0x7f05000d;
+        public static final int change_pin_error=0x7f050057;
+        /**  Info/Success 
+         */
+        public static final int change_pin_success=0x7f05005b;
+        public static final int common_entry=0x7f050061;
+        public static final int confirm_pin_error=0x7f050056;
+        public static final int confirm_pin_required=0x7f05004f;
+        public static final int confirmation=0x7f050012;
+        /**  Transaksi 
+         */
+        public static final int danaplus=0x7f05006f;
+        public static final int danaplus_confirm=0x7f050008;
+        public static final int debug_mode_warning=0x7f05003e;
+        public static final int due_date=0x7f050031;
+        /**  Error 
+         */
+        public static final int due_date_range_error=0x7f050054;
+        public static final int due_date_required=0x7f050043;
+        public static final int esia=0x7f05007a;
+        public static final int execution_error=0x7f05001f;
+        public static final int fax_no=0x7f05002b;
+        public static final int fifth_entry=0x7f050066;
+        public static final int first_entry=0x7f050062;
+        public static final int fitur=0x7f05008c;
+        public static final int fitur_confirm=0x7f05000e;
+        public static final int flexi=0x7f050078;
+        public static final int fourth_entry=0x7f050065;
+        public static final int fren=0x7f050077;
+        public static final int generic_failure=0x7f050019;
+        public static final int im3=0x7f050076;
+        /**  Common Label 
+         */
+        public static final int informasi=0x7f050011;
+        /**  Common Label 
+         */
+        public static final int jumlah_limit=0x7f050026;
+        public static final int jumlah_pembayaran=0x7f05002f;
+        public static final int jumlah_pembayaran_required=0x7f050041;
+        public static final int jumlah_pulsa=0x7f050030;
+        public static final int jumlah_pulsa_required=0x7f050042;
+        public static final int jumlah_transfer=0x7f050037;
+        public static final int jumlah_transfer_required=0x7f05004a;
+        /**  Layanan 
+         */
+        public static final int kenaikan_limit=0x7f05006d;
+        /**  Layanan 
+         */
+        public static final int kenaikan_limit_confirm=0x7f050004;
+        public static final int kirim_button=0x7f050025;
+        public static final int kode_pos=0x7f05003b;
+        public static final int kode_pos_required=0x7f050053;
+        public static final int kota=0x7f05003a;
+        public static final int kota_required=0x7f050052;
+        /**  Warnings 
+         */
+        public static final int limit_value_warning=0x7f05003c;
+        public static final int mentari=0x7f050074;
+        /**  Menu Label 
+         */
+        public static final int menu_about=0x7f050015;
+        public static final int menu_back=0x7f050017;
+        /**  Menu Not Exists 
+         */
+        public static final int menu_error=0x7f050020;
+        public static final int menu_setting=0x7f050016;
+        /**  Prompt 
+         */
+        public static final int mode_debug_prompt=0x7f05005d;
+        /**  Permohonan Aplikasi 
+         */
+        public static final int nama=0x7f050038;
+        public static final int nama_bank=0x7f050032;
+        public static final int nama_bank_required=0x7f050044;
+        public static final int nama_cabang=0x7f050033;
+        public static final int nama_cabang_required=0x7f050045;
+        public static final int nama_required=0x7f050050;
+        public static final int new_pin=0x7f050029;
+        public static final int new_pin_confirm=0x7f05002a;
+        public static final int new_pin_required=0x7f05004e;
+        public static final int no_button=0x7f050023;
+        public static final int no_pelanggan=0x7f05002e;
+        public static final int no_pelanggan_required=0x7f050040;
+        public static final int no_rekening_tujuan=0x7f050036;
+        public static final int no_service=0x7f05001a;
+        public static final int nominal_transfer_required=0x7f05004c;
+        public static final int null_pdu=0x7f05001b;
+        /**  Use for Buttons 
+         */
+        public static final int ok_button=0x7f050021;
+        public static final int old_pin=0x7f050028;
+        public static final int old_pin_error=0x7f050055;
+        public static final int old_pin_required=0x7f05004d;
+        public static final int pembayaran=0x7f05006b;
+        public static final int pembayaran_confirm=0x7f050002;
+        /**  Transaksi 
+         */
+        public static final int phone_bill_confirm=0x7f050005;
+        public static final int phone_no=0x7f05002d;
+        /**  Required 
+         */
+        public static final int phone_no_required=0x7f05003f;
+        public static final int phone_reload_confirm=0x7f050006;
+        public static final int phone_smartbill_confirm=0x7f050009;
+        public static final int phone_smartreload_confirm=0x7f05000b;
+        /**  Lain-Lain 
+         */
+        public static final int pin=0x7f05008b;
+        public static final int pin_confirm=0x7f05005a;
+        public static final int pin_error=0x7f050059;
+        public static final int pin_length_error=0x7f050058;
+        public static final int pin_setup=0x7f050027;
+        public static final int pin_smartmobile=0x7f050035;
+        public static final int pin_smartmobile_required=0x7f050049;
+        public static final int pin_unlocked_info=0x7f05005c;
+        public static final int poin=0x7f05006c;
+        public static final int poin_confirm=0x7f050003;
+        public static final int radio_off=0x7f05001c;
+        /**  Common 
+         */
+        public static final int register=0x7f05008d;
+        public static final int register_confirm=0x7f05000f;
+        public static final int rekening_value_required=0x7f05004b;
+        public static final int reload_due_date_confirm=0x7f05000a;
+        /**  Informasi 
+         */
+        public static final int saldo=0x7f050069;
+        public static final int second_entry=0x7f050063;
+        public static final int set_button=0x7f050024;
         /**  Reload Voucher 
          */
-        public static final int simpati=0x7f050027;
+        public static final int simpati=0x7f050072;
+        public static final int sixth_entry=0x7f050067;
         /**  Smart Transfer 
          */
-        public static final int smart_transfer=0x7f05003f;
-        public static final int sms_delivered=0x7f050009;
-        public static final int sms_not_delivered=0x7f05000a;
-        public static final int sms_sent=0x7f050004;
+        public static final int smart_transfer=0x7f05008a;
+        public static final int smart_transfer_confirm=0x7f05000c;
+        public static final int sms_delivered=0x7f05001d;
+        public static final int sms_not_delivered=0x7f05001e;
+        /**  SMS Engine 
+         */
+        public static final int sms_sent=0x7f050018;
         /**  SMS Center 
          */
-        public static final int smscenter=0x7f05001d;
-        public static final int starone=0x7f05002a;
-        public static final int tagihan=0x7f05001f;
-        public static final int tagihan_confirm=0x7f050011;
+        public static final int smscenter=0x7f050068;
+        public static final int starone=0x7f050075;
+        public static final int tagihan=0x7f05006a;
+        public static final int tagihan_confirm=0x7f050001;
         /**  Bill Payment 
          */
-        public static final int telkom=0x7f050025;
-        public static final int telkomsel=0x7f050026;
-        public static final int three=0x7f050032;
-        public static final int warning=0x7f05000d;
-        public static final int xl_jempol=0x7f05002e;
-        public static final int xl_reg=0x7f050030;
-        public static final int xl_xtra=0x7f050031;
-        public static final int yes_button=0x7f050017;
+        public static final int telkom=0x7f050070;
+        public static final int telkomsel=0x7f050071;
+        public static final int third_entry=0x7f050064;
+        public static final int three=0x7f05007d;
+        public static final int warning=0x7f050013;
+        public static final int xl_jempol=0x7f050079;
+        public static final int xl_reg=0x7f05007b;
+        public static final int xl_xtra=0x7f05007c;
+        public static final int yes_button=0x7f050022;
     }
     public static final class style {
         public static final int background_white=0x7f060000;

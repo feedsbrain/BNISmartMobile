@@ -9,7 +9,6 @@ import android.widget.Toast;
 
 import com.indragunawan.smartmobile.bni.common.DialogFactory;
 import com.indragunawan.smartmobile.bni.common.SMSActivity;
-import com.indragunawan.smartmobile.bni.common.SimplePINHelper;
 import com.indragunawan.smartmobile.bni.helper.Constants;
 import com.indragunawan.smartmobile.bni.helper.ScreenConstants;
 import com.indragunawan.smartmobile.bni.helper.StringUtils;
@@ -55,11 +54,8 @@ public class SmartMobilePINActivity extends SMSActivity {
 					confirmPin.requestFocus();
 				}
 			} else {
-				SimplePINHelper sph = new SimplePINHelper(getApplicationContext());
-				if (sph.validatePIN(this, oldPin.getText().toString(), newPin.getText().toString(), confirmPin.getText().toString())) {
-					doChangeSmartmobilePIN();
-					resetForm();
-				}
+				doChangeSmartmobilePIN();
+				resetForm();
 			}
 		}
 	}
